@@ -805,6 +805,9 @@ background-repeat: no-repeat;
   .projects-item {
     width: 100%;
   }
+  .intro.section {
+    margin-top: 180px;
+  }
 }
 
 .banner-words {
