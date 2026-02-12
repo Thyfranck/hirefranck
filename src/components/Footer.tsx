@@ -20,7 +20,7 @@ export function Footer({ isDark }: FooterProps) {
               isDark ? 'text-gray-500' : 'text-gray-400'
             }`}
           >
-            {currentYear} Franck Loic. Built with React & Tailwind CSS.
+            {currentYear} Franck Loic. Vibe coded with Cursor, Claude, and Gemini.
           </p>
           <div className="flex items-center gap-6">
             <a

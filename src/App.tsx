@@ -1,6 +1,7 @@
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { WhatIDo } from './components/WhatIDo';
+import { ExecutiveSummary } from './components/ExecutiveSummary';
 import { Projects } from './components/Projects';
 import { RapidPrototyping } from './components/RapidPrototyping';
 import { Capabilities } from './components/Capabilities';
@@ -23,6 +24,7 @@ function App() {
       <main>
         <Hero isDark={isDark} />
         <WhatIDo isDark={isDark} />
+        <ExecutiveSummary isDark={isDark} />
         <Projects isDark={isDark} />
         <RapidPrototyping isDark={isDark} />
         <Capabilities isDark={isDark} />

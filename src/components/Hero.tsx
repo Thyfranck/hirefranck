@@ -97,7 +97,7 @@ export function Hero({ isDark }: HeroProps) {
               Download Resume
             </a>
             <a
-              href="https://linkedin.com/in/franckloic"
+              href="https://www.linkedin.com/in/franckt/"
               target="_blank"
               rel="noopener noreferrer"
               className={isDark ? 'btn-secondary' : 'btn-secondary-light'}
