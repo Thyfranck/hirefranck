@@ -59,40 +59,40 @@ const rapidProjects: Project[] = [
   {
     id: 'travelpoor',
     name: 'TravelPoor',
-    tagline: 'Budget Travel Planning Platform',
+    tagline: 'Digital Nomad Transition Consulting',
     url: 'https://www.travelpoor.com',
     description:
-      'AI-assisted travel platform focused on helping users plan meaningful trips on minimal budgets. Built rapidly using vibe coding workflows and AI pair-programming across the full stack.',
+      'AI-assisted travel and lifestyle consulting service helping aspiring digital nomads design affordable, sustainable location-independent lives. Combines human guidance with AI-powered research, planning, and resource matching.',
     features: [
-      'Smart destination discovery for low-cost travel',
-      'Budget-first trip planning experience',
-      'Clean, conversion-focused landing flow',
-      'Rapid iteration using AI-assisted development',
+      'Personalized transition plans for aspiring digital nomads',
+      'Budget-conscious relocation and travel strategy',
+      'AI-assisted destination, visa, and cost-of-living research',
+      'Structured planning process for remote life setup',
     ],
     buildTime: '4–5 days',
     buildTool: 'Bolt / Cursor / Claude / ChatGPT',
     techStack: ['Next.js', 'Tailwind CSS', 'Netlify', 'GitHub', 'Figma'],
     whyItMatters:
-      'Demonstrates ability to coordinate multiple AI coding tools across design, frontend, and deployment workflows — shipping a production-ready consumer product quickly.',
+      'Demonstrates ability to ship an AI-augmented service business — blending automation, research tooling, and clear UX to turn a complex life transition into a structured, scalable offering.',
   },
   {
     id: 'joingrayrock',
     name: 'JoinGrayRock',
-    tagline: 'Private Network / Community Validation Platform',
+    tagline: 'AI Mediator for Co-Parents',
     url: 'https://www.joingrayrock.com',
     description:
-      'Landing and validation platform built to test demand and capture early user interest. Focused on rapid experimentation, clean positioning, and user feedback loops.',
+      'AI-powered communication platform designed to help co-parents who struggle to communicate directly. Provides structured, lower-conflict messaging support using an AI mediator layer between participants.',
     features: [
-      'Conversion-optimized landing page',
-      'Integrated user testing workflow (Typeform)',
-      'Rapid MVP validation build',
-      'AI-assisted copy + development',
+      'AI-assisted message mediation to reduce conflict',
+      'Structured communication flow between co-parents',
+      'Integrated user validation and feedback loop (Typeform)',
+      'SMS-based messaging powered by Twilio',
     ],
     buildTime: '2–3 days',
     buildTool: 'Cursor / Claude',
-    techStack: ['React', 'GitHub', 'Typeform'],
+    techStack: ['React', 'GitHub', 'Typeform', 'Twilio (SMS)'],
     whyItMatters:
-      'Shows ability to rapidly validate product ideas, integrate external tools for feedback collection, and use AI to accelerate lean MVP execution.',
+      'Shows ability to apply AI to emotionally sensitive, real-world problems — combining LLM workflows with communication infrastructure to build a functional, high-impact MVP.',
   },
 ];
 
