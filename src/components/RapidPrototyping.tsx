@@ -255,7 +255,7 @@ export function RapidPrototyping({ isDark }: RapidPrototypingProps) {
               isDark ? 'text-gray-400' : 'text-gray-600'
             }`}
           >
-            Using vibe coding tools (Cursor, Lovable, Replit) to go from idea to live
+            Using vibe coding tools (Cursor, Lovable, Replit, Bolt) to go from idea to live
             product in days, not months. These are functional products, not mockups.
           </p>
         </div>
