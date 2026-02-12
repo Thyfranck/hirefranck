@@ -139,17 +139,34 @@ function ProjectCard({
           </div>
         </div>
 
-        <button
-          onClick={() => setIsExpanded(!isExpanded)}
-          className={`mt-4 inline-flex items-center gap-2 text-sm font-medium transition-colors ${
-            isDark
-              ? 'text-accent-400 hover:text-accent-300'
-              : 'text-accent-600 hover:text-accent-500'
-          }`}
-        >
-          {isExpanded ? 'Show Less' : 'View Details'}
-          <ExternalLink size={14} />
-        </button>
+        <div className="flex items-center gap-4 mt-4">
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className={`inline-flex items-center gap-2 text-sm font-medium transition-colors ${
+              isDark
+                ? 'text-accent-400 hover:text-accent-300'
+                : 'text-accent-600 hover:text-accent-500'
+            }`}
+          >
+            {isExpanded ? 'Show Less' : 'View Details'}
+            <ExternalLink size={14} />
+          </button>
+          {project.url && (
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`inline-flex items-center gap-2 text-sm font-medium transition-colors ${
+                isDark
+                  ? 'text-accent-400 hover:text-accent-300'
+                  : 'text-accent-600 hover:text-accent-500'
+              }`}
+            >
+              Visit Live Site
+              <ExternalLink size={14} />
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

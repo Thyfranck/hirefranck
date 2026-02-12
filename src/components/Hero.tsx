@@ -71,7 +71,7 @@ export function Hero({ isDark }: HeroProps) {
           >
             Product Manager{' '}
             <span className="gradient-text">x</span> Solutions Architect{' '}
-            <span className="gradient-text">x</span> AI Innovator
+            <span className="gradient-text">x</span> AI Implementer
           </h1>
 
           <p
