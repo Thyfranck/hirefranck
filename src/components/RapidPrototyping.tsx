@@ -56,6 +56,44 @@ const rapidProjects: Project[] = [
     whyItMatters:
       'Demonstrates ability to integrate AI capabilities into customer-facing products - directly relevant for AI Solutions Architect roles.',
   },
+  {
+    id: 'travelpoor',
+    name: 'TravelPoor',
+    tagline: 'Budget Travel Planning Platform',
+    url: 'https://www.travelpoor.com',
+    description:
+      'AI-assisted travel platform focused on helping users plan meaningful trips on minimal budgets. Built rapidly using vibe coding workflows and AI pair-programming across the full stack.',
+    features: [
+      'Smart destination discovery for low-cost travel',
+      'Budget-first trip planning experience',
+      'Clean, conversion-focused landing flow',
+      'Rapid iteration using AI-assisted development',
+    ],
+    buildTime: '4–5 days',
+    buildTool: 'Bolt / Cursor / Claude / ChatGPT',
+    techStack: ['Next.js', 'Tailwind CSS', 'Netlify', 'GitHub', 'Figma'],
+    whyItMatters:
+      'Demonstrates ability to coordinate multiple AI coding tools across design, frontend, and deployment workflows — shipping a production-ready consumer product quickly.',
+  },
+  {
+    id: 'joingrayrock',
+    name: 'JoinGrayRock',
+    tagline: 'Private Network / Community Validation Platform',
+    url: 'https://www.joingrayrock.com',
+    description:
+      'Landing and validation platform built to test demand and capture early user interest. Focused on rapid experimentation, clean positioning, and user feedback loops.',
+    features: [
+      'Conversion-optimized landing page',
+      'Integrated user testing workflow (Typeform)',
+      'Rapid MVP validation build',
+      'AI-assisted copy + development',
+    ],
+    buildTime: '2–3 days',
+    buildTool: 'Cursor / Claude',
+    techStack: ['React', 'GitHub', 'Typeform'],
+    whyItMatters:
+      'Shows ability to rapidly validate product ideas, integrate external tools for feedback collection, and use AI to accelerate lean MVP execution.',
+  },
 ];
 
 function ProjectCard({

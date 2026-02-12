@@ -87,36 +87,6 @@ export const projects: Project[] = [
     ],
     techStack: ['App Store API', 'Play Store API', 'Excel Automation'],
   },
-  {
-    id: 'travelpoor',
-    title: 'Budget Travel Planning Platform',
-    company: 'TravelPoor',
-    description: 'AI-assisted travel platform focused on helping users plan meaningful trips on minimal budgets. Built rapidly using vibe coding workflows and AI pair-programming across the full stack.',
-    impacts: [
-      'Smart destination discovery for low-cost travel',
-      'Budget-first trip planning experience',
-      'Clean, conversion-focused landing flow',
-      'Rapid iteration using AI-assisted development',
-    ],
-    techStack: ['Next.js', 'Tailwind CSS', 'Netlify', 'GitHub', 'Figma', 'Bolt', 'Cursor', 'Claude', 'ChatGPT'],
-    note: 'Demonstrates ability to coordinate multiple AI coding tools across design, frontend, and deployment workflows — shipping a production-ready consumer product quickly. Built in 4–5 days.',
-    url: 'https://www.travelpoor.com',
-  },
-  {
-    id: 'joingrayrock',
-    title: 'Private Network / Community Validation Platform',
-    company: 'JoinGrayRock',
-    description: 'Landing and validation platform built to test demand and capture early user interest. Focused on rapid experimentation, clean positioning, and user feedback loops.',
-    impacts: [
-      'Conversion-optimized landing page',
-      'Integrated user testing workflow (Typeform)',
-      'Rapid MVP validation build',
-      'AI-assisted copy + development',
-    ],
-    techStack: ['React', 'GitHub', 'Typeform', 'Cursor', 'Claude'],
-    note: 'Shows ability to rapidly validate product ideas, integrate external tools for feedback collection, and use AI to accelerate lean MVP execution. Built in 2–3 days.',
-    url: 'https://www.joingrayrock.com',
-  },
 ];
 
 export const timeline: TimelineItem[] = [
